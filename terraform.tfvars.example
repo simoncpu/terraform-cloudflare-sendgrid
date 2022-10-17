@@ -1,0 +1,8 @@
+domain            = "example.org"
+sendgrid_ip       = "192.88.99.1"
+sendgrid_username = "username"
+sendgrid_email    = "username@example.org"
+sendgrid_password = "password"
+sendgrid_api_key  = ""
+cloudflare_account_id = ""
+cloudflare_api_token  = ""

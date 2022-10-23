@@ -1,7 +1,7 @@
 resource "cloudflare_zone" "domain" {
   account_id = var.cloudflare_account_id
   zone       = var.domain
-  jump_start = true
+  jump_start = false
 }
 
 resource "sendgrid_subuser" "subuser" {
